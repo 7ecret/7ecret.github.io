@@ -1,0 +1,80 @@
+body {
+  font-size: 16px;
+  background-image: url('https://html5book.ru/wp-content/uploads/2015/09/background50.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+h1 {
+  color: #566573;
+  font-size: 70px;
+  font-family: courier;
+  text-align: center;
+}
+p {
+  border: 1px solid rgba(250,219,216,1);
+  color: #566573;
+  padding: 15px;
+  background-color: rgba(232,218,239,0.5);
+  margin: 20px;
+}
+#passworld {
+  background-color: #2ECC71;
+  border: 2px;
+  border-style: outset;
+  border-color: #D7BDE2;
+}
+p.login {
+  background-color: #CB4335;
+  border: 2px;
+  border-style: outset;
+  border-color: #D7BDE2;
+}
+p.email {
+  background-color: #2E86C1;
+  border: 2px;
+  border-style: outset;
+  border-color: #D7BDE2;
+}
+
+#silka {
+  background-color: #f44336;
+  color: green;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+#table22 {
+  border: 2px;
+}
+table, th, td {
+  border: 2px;
+  border-style: outset;
+  border-color: rgba(247, 220, 111, 0.5);
+  background-color: rgba(230, 126, 34, 0.5);
+  border-collapse: collapse;
+  padding: 10px;
+  text-align: center;
+  /* border-spacing: 10px; */
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #111111;
+}
